@@ -1,0 +1,7 @@
+<launch>
+  <!--<include file="$(find micvision_mapping)/launch/turtlebot2/cartographer_turtlebot2.launch" />-->
+  <include file="$(find jackal_cartographer_navigation)/launch/jackal_autonomous_slam.launch" />
+<!--  <include file="$(find nearest_frontier_planner)/launch/nearest_frontier_planner.launch" />-->
+<!--  <include file="$(find nearest_frontier_planner)/launch/tutorial3_icp_nfp.launch" />-->
+
+</launch>
